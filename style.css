@@ -1,0 +1,223 @@
+/* Global resets */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Varta-Light;
+  src: url('./Fonts/Varta-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Varta-Bold;
+  src: url('./Fonts/Varta-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Varta-Regular;
+  src: url('./Fonts/Varta-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  color: #424242;
+  line-height: 1.4;
+}
+
+/* Fonts */
+
+h1 {
+  font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.container {
+  margin: 2em auto;
+  max-width: 630px;
+  text-align: center;
+}
+
+/* COLORS:
+  blue: #20A1D4;
+  green: #1CBC2C;
+  orange: #EF5F3C;
+  black: #424242;
+  grey: #777;
+  light grey: #eaeaea;
+*/
+
+/* Your CSS goes here */
+
+.callout {
+  height: 2.7rem;
+  width: 16.3rem;
+}
+
+.callout {
+  letter-spacing: .2px;
+  font-family: Varta-Light;
+  background-color: #424242;
+  position: absolute;
+  color: white;
+  font-size: .9rem;
+  padding: .7rem;
+  border-radius: 3px;
+  margin: 18px;
+  top: 8.9rem;
+  left: 18.6rem;
+  border: 1px solid #424242;
+}
+
+b {
+  font-family: Varta-Bold;
+}
+
+.callout::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border: 0.8em solid transparent;
+  position: absolute;
+  right: 1.4rem;
+  bottom: -18px;
+	border-top: 15px solid #424242;
+}
+
+.mainContain {
+  border: 1px solid #dcdcdc;
+  position: absolute;
+  height: 12.7rem;
+  width: 16.3rem;
+  left: 19.75rem;
+  top: 13.35rem;
+  background-color: #ffffff;
+  box-shadow: 0px 2px #f4f4f4;
+}
+
+.fillBar1 {
+  position: absolute;
+  background-color: #EF5F3C;
+  height: .62rem;
+  width: 12.1rem;
+  box-shadow: 0px .6px #dcdcdc;
+}
+.fillBar2 {
+  position: absolute;
+  right: 0rem;
+  background-color: #fafafa;
+  height: .62rem;
+  width: 4.1rem;
+  box-shadow: 0px .6px #dcdcdc;
+}
+
+.boldOrange {
+  color: #EF5F3C;
+}
+
+p {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.daysLeft {
+  position: absolute;
+  left: 1.2rem;
+  top: 1.4rem;
+  text-align: left;
+}
+
+.joinOthers {
+  position: absolute;
+  letter-spacing: -0.27px;
+  text-align: left;
+  left: 1rem;
+  top: 3.4rem;
+  width: 13rem;
+}
+
+.entry {
+  position: absolute;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: left;
+  letter-spacing: -0.27px;
+  padding: .55rem;
+  left: 1.05rem;
+  top: 7.45rem;
+  width: 6.6rem;
+  height: 2.75rem;
+  border-radius: 3px;
+  border: 1px solid #dcdcdc;
+}
+
+button {
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.giveNow {
+  font-size: 1rem;
+  font-family: Varta-Regular;
+  color: white;
+  position: absolute;
+  right: 1.05rem;
+  top: 7.45rem;
+  width: 6.6rem;
+  height: 2.75rem;
+  border-radius: 3px;
+  background-color: #1CBC2C;
+}
+
+#dollar{
+  color: #777;
+  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+}
+
+#whyGive {
+  color: #24a6d8;
+  font-style: italic;
+  font-weight: bold;
+  font-size: .7rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.save {
+  color: #777;
+  letter-spacing: -.5px;
+  font-size: .9rem;
+  font-family: Varta-Regular;
+  position: absolute;
+  top: 26.8rem;
+  left: 19.75rem;
+  padding: .4rem;
+  height: 2.1rem;
+  width: 7.65rem;
+  border-radius: 3px;
+  border: 1px solid #dcdcdc;
+  background-color: #fafafa;
+  box-shadow: 0px 1px #dcdcdc;
+}
+
+.tell {
+  color: #777;
+  letter-spacing: -.5px;
+  font-size: .9rem;
+  font-family: Varta-Regular;
+  position: absolute;
+  top: 26.8rem;
+  left: 28.4rem;
+  padding: .4rem;
+  height: 2.1rem;
+  width: 7.65rem;
+  border-radius: 3px;
+  border: 1px solid #dcdcdc;
+  background-color: #fafafa;
+  box-shadow: 0px 1px #dcdcdc;
+}
