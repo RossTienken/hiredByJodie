@@ -181,8 +181,8 @@ button {
 #whyGive {
   color: #24a6d8;
   font-style: italic;
-  font-weight: bold;
-  font-size: .7rem;
+  font-size: .75rem;
+  font-family: Varta-Light;
   position: absolute;
   bottom: 1rem;
   left: 1rem;
